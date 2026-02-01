@@ -1,0 +1,84 @@
+<!--Brandon Harbit-Moore 
+    Markup Basics 2
+    Exercise 2
+-->
+<!DOCTYPE html>
+<style>
+    table 
+    {
+        border-collapse:collapse;
+        width:100%;
+    }
+    tr:nth-child(even)
+    {
+        background-color:goldenrod;
+    }
+    th
+    {
+        border:1px solid darkgoldenrod;
+        text-align:left;
+        background-color:black;
+        color:white;
+        padding:8px;
+        font:bold;
+    }
+    td
+    {
+        border:1px solid darkgoldenrod;
+        text-align:left;
+        padding:8px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+</style>
+<html>
+    <head>
+        <title>Exercise 2</title>
+    </head>
+    <body>
+        <h2>Resume</h2>
+        <table>
+            <tr>
+                <th rowspan="4">Work Experience</th>
+                <th>Company</th>
+                <th>Title</th>
+                <th>Years</th>
+            </tr>
+            <tr>
+                <td>ABC Supply</td>
+                <td>Merchandising Support Specialist</td>
+                <td>2021-Present</td>
+            </tr>
+            <tr>
+                <td>Walmart</td>
+                <td>Entertainment Team Lead</td>
+                <td>2016-2021</td>
+            </tr>
+            <tr>
+                <td>MIO (UW-Oshkosh Department of Residence Life)</td>
+                <td>Web Programmer</td>
+                <td>2009-2010</td>
+            </tr>
+            <tr>
+                <th rowspan="4">Education</th>
+                <th>School</th>
+                <th>Degree</th>
+                <th>Years</th>
+            </tr>
+            <tr>
+                <td>Blackhawk Technical College</td>
+                <td>Associates in Web Software Development</td>
+                <td>2026-Present</td>
+            </tr>
+            <tr>
+                <td>UW-Whitewater</td>
+                <td>Bachelors in English</td>
+                <td>2012-2016</td>
+            </tr>
+            <tr>
+                <td>UW-Oshkosh</td>
+                <td>Bachelors in Computer Science</td>
+                <td>2007-2010</td>
+            </tr>
+        </table>
+    </body>
+</html>
